@@ -3,7 +3,7 @@ package Arryas;
 public class FindUnique {
     
 	public static int  findUniqueNumber(int[] arr) {
-        int uniqueCount = 0; 
+        int uniqueCount = 0;   
         int uniqueNumber = -1; // Default value if there is no unique number
         int n = arr.length;
 
@@ -33,3 +33,4 @@ public class FindUnique {
 	}
     
 }
+

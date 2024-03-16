@@ -11,7 +11,7 @@ public class Student {
    }
    static int numStudent;
    public void print(){
-    System.out.println(name +" : "+ rollNum);
+    System.out.println("Name of the student is "+name +" and roll number of the student is "+ rollNum);
    }
     public int getRollNum(){
         return rollNum ;

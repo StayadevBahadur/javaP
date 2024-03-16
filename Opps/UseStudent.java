@@ -1,6 +1,6 @@
 package Opps;
 
-public class UseStudent {
+public class UseStudent {   
     public static void main(String[] args) {
         Student s1 = new Student("Satyadev",148);
         Student s2 = new Student("Riya",147);
