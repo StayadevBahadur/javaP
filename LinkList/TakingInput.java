@@ -32,6 +32,6 @@ public class TakingInput {
     }
     public static void main(String[] args) {
         Node<Integer> head = TakeInput();
-        print(head);
+        print(head); 
     }
 }
