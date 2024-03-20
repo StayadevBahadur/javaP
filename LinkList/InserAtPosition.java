@@ -10,7 +10,7 @@ public class InserAtPosition {
         // Initailze a data (integer)
         int data = s.nextInt();
         // Run the proccese of taking input untill the input is -1 
-        while (data != -1) {
+        while (data != -1) { 
             // create a new node who's data is the data which we taken above
             Node<Integer> newNode = new Node<Integer>(data);
             // look that the head of our linkList not null if it is null set the head value as that the value of the data 
