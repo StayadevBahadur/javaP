@@ -36,7 +36,7 @@ public class InserAtPosition {
         Node<Integer> ToBeInserted = new Node<Integer>(num);
         Node<Integer> temp = head;
 
-        if (pos == 0) {
+        if (pos == 0) { 
             ToBeInserted.next = head;
             return ToBeInserted;
         }
