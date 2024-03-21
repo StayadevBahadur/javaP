@@ -28,22 +28,22 @@ public class FindTheMid {
               
         Node<Integer> slow = head;
         Node<Integer> fast = head;
-        Node<Integer> prev = null; // To keep track of the previous node of slow
+        // Node<Integer> prev = null; // To keep track of the previous node of slow
   
-          while (fast != null && fast.next != null) {
-              prev = slow; // Update prev to the current slow pointer
+          while (fast.next != null && fast.next.next != null) {
+            //   prev = slow; // Update prev to the current slow pointer
               slow = slow.next; // Move slow pointer by one step
               fast = fast.next.next; // Move fast pointer by two steps
           }
   
-          if (fast == null) {
-              // Even length list, return the left side middle node
-              return prev;
-          } else {
+        //   if (fast == null) {
+        //       // Even length list, return the left side middle node
+        //       return prev;
+        //   } else {
               // Odd length list, return the middle node
               return slow;
           }
-      }
+    //   }
   
      public static void print(Node<Integer> head){
         while (head != null) {
