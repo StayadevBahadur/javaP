@@ -63,7 +63,7 @@ public class DleteNode {
   
     public static void main(String[] args) {
         Node<Integer> node1 = TakeInputAndCreateLinkList();
-        node1 = deleteNode(node1, 2);
+        node1 = deleteNode(node1, 2 );
         print(node1);
     }
 }
