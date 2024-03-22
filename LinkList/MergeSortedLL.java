@@ -62,6 +62,10 @@ Node<Integer> curr = dummy; // Pointer for the current node in the merged list
         }
        }
        public static void main(String[] args) {
-        
+        Node<Integer> node1 = CLinkList();
+        Node<Integer> node2 = CLinkList();
+       node1 = mergeTwoSorteds(node1, node2);
+       print(node1);
        }
+       
 }
