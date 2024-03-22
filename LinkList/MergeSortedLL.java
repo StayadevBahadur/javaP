@@ -3,7 +3,7 @@ package LinkList;
 import java.util.Scanner;
 
 public class MergeSortedLL {
-        public static Node<Integer> CLinkList(){
+    public static Node<Integer> CLinkList(){
     Node<Integer> head = null;
     Scanner s = new Scanner(System.in);
     int data = s.nextInt();
@@ -22,7 +22,7 @@ public class MergeSortedLL {
     }
     return head;
   }
-  public static Node<Integer> mergeTwoSorteds(Node<Integer> head1, Node<Integer> head2) {
+public static Node<Integer> mergeTwoSorteds(Node<Integer> head1, Node<Integer> head2) {
     if (head1 == null) {
      return head2;
  }
