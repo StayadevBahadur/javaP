@@ -46,6 +46,8 @@ public class MergeSortedLL2 {
       }
 // Here the Modificitaion of linklist starts
       while (t1 != null && t2 != null) {
+        // it basically check the the and set the Coplete tail and set the t1 to it'next
+        // It set the tail node and break the old connection
         if (t1.data <= t2.data ) {
           tail.next = t1;
           tail = t1;
@@ -56,7 +58,7 @@ public class MergeSortedLL2 {
           t2 = t2.next;
         }
       }
-      if (t1 != null) {
+      if (t1 != null) { 
         tail.next = head1;
     } else if (t2 != null) {
         tail.next = head2;
