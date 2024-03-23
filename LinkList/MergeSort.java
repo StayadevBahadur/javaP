@@ -28,7 +28,6 @@ public class MergeSort {
     if (head == null || head.next == null) {
       return head;
     }
-
     Node<Integer> middle = findMiddle(head);
     Node<Integer> nextToMiddle = middle.next;
     middle.next = null;
@@ -51,6 +50,7 @@ public class MergeSort {
   }
 
   public static Node<Integer> merge(Node<Integer> left, Node<Integer> right) {
+
     Node<Integer> dummy = new Node<Integer>(0);
     Node<Integer> current = dummy;
 
