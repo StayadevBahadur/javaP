@@ -14,7 +14,7 @@ public class MergeSort {
         head = newNode;
       } else {
         Node<Integer> temp = head;
-        while (temp.next != null) {
+        while (temp.next != null) {// the while part is doing the linking part of the list
           temp = temp.next;
         }
         temp.next = newNode;

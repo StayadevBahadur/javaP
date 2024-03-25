@@ -27,8 +27,9 @@ public class PrintRecur {
     if (head == null) {
         return;
     }
-    printRecursive(head.next);
+   
     System.out.print(head.data + " ");
+    printRecursive(head.next);
     
   }
 
