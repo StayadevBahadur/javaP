@@ -2,8 +2,8 @@ package Stack;
 
 public class StackUse {
     public static void main(String[] args) throws CustomException {
-        StackUsinArray stack = new StackUsinArray();
-        for(int i = 1 ; i <=  5;i++){
+        StackUsinArray stack = new StackUsinArray(3);
+        for(int i = 1 ; i <=  5 ;i++){
             stack.push(i);
         }
 

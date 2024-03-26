@@ -29,11 +29,13 @@ public class StackUsinArray {
         }
         return data[top];
     }
-
+   
     public void push(int element) throws CustomException {
         if (Size() == data.length) {
-            throw new CustomException("Stack is full. Cannot push element.");
+            doubleCapacity();
+            // throw new CustomException("Stack is full. Cannot push element.");
         }
+
         top++;
         data[top] = element;
     }
@@ -45,5 +47,12 @@ public class StackUsinArray {
         int temp = data[top];
         top--;
         return temp;
+    }
+    private void doubleCapacity(){
+        int temp [] = data;
+        data = new int[2* temp.length];
+        for(int i= 0 ; i<top;i++){
+            data[i]=temp[i];
+        }
     }
 }
