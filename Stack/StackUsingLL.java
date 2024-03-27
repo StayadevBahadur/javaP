@@ -29,14 +29,14 @@ public boolean isEmpty() {
 
 
 public T pop() {
-   T tNode = null;
-    if (head!= null) {
-         tNode = head.data;
-        head = head.next;
-        size--;
-        
-    }
-    return tNode;
+    T tNode = null;
+        if (head!= null) {
+            tNode = head.data;
+            head = head.next;
+            size--;
+            
+        }
+        return tNode;
    
 }
 
