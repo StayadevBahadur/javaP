@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "TUtakeInoutLevel",
+            "request": "launch",
+            "mainClass": "Tree.TUtakeInoutLevel",
+            "projectName": "javaP_fb367ff0"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
