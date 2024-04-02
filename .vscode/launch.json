@@ -1,0 +1,329 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "ArrangeTheArrayInOddNeven",
+            "request": "launch",
+            "mainClass": "Arryas.ArrangeTheArrayInOddNeven",
+            "projectName": "javaP_fb367ff0"
+        },
+        {
+            "type": "java",
+            "name": "FindLargest",
+            "request": "launch",
+            "mainClass": "Arryas.FindLargest",
+            "projectName": "javaP_fb367ff0"
+        },
+        {
+            "type": "java",
+            "name": "FindTheDuplicate",
+            "request": "launch",
+            "mainClass": "Arryas.FindTheDuplicate",
+            "projectName": "javaP_fb367ff0"
+        },
+        {
+            "type": "java",
+            "name": "FindUnique",
+            "request": "launch",
+            "mainClass": "Arryas.FindUnique",
+            "projectName": "javaP_fb367ff0"
+        },
+        {
+            "type": "java",
+            "name": "AppendLastNToFirst",
+            "request": "launch",
+            "mainClass": "LinkList.AppendLastNToFirst",
+            "projectName": "javaP_fb367ff0"
+        },
+        {
+            "type": "java",
+            "name": "ArraListDemo",
+            "request": "launch",
+            "mainClass": "LinkList.ArraListDemo",
+            "projectName": "javaP_fb367ff0"
+        },
+        {
+            "type": "java",
+            "name": "DeleteRecur",
+            "request": "launch",
+            "mainClass": "LinkList.DeleteRecur",
+            "projectName": "javaP_fb367ff0"
+        },
+        {
+            "type": "java",
+            "name": "DleteNode",
+            "request": "launch",
+            "mainClass": "LinkList.DleteNode",
+            "projectName": "javaP_fb367ff0"
+        },
+        {
+            "type": "java",
+            "name": "EluminateDuplicates",
+            "request": "launch",
+            "mainClass": "LinkList.EluminateDuplicates",
+            "projectName": "javaP_fb367ff0"
+        },
+        {
+            "type": "java",
+            "name": "FindTheMid",
+            "request": "launch",
+            "mainClass": "LinkList.FindTheMid",
+            "projectName": "javaP_fb367ff0"
+        },
+        {
+            "type": "java",
+            "name": "GetThePositin",
+            "request": "launch",
+            "mainClass": "LinkList.GetThePositin",
+            "projectName": "javaP_fb367ff0"
+        },
+        {
+            "type": "java",
+            "name": "InserAtPosition",
+            "request": "launch",
+            "mainClass": "LinkList.InserAtPosition",
+            "projectName": "javaP_fb367ff0"
+        },
+        {
+            "type": "java",
+            "name": "InsertRecursively",
+            "request": "launch",
+            "mainClass": "LinkList.InsertRecursively",
+            "projectName": "javaP_fb367ff0"
+        },
+        {
+            "type": "java",
+            "name": "LengthOfLinkList",
+            "request": "launch",
+            "mainClass": "LinkList.LengthOfLinkList",
+            "projectName": "javaP_fb367ff0"
+        },
+        {
+            "type": "java",
+            "name": "LinkListUse",
+            "request": "launch",
+            "mainClass": "LinkList.LinkListUse",
+            "projectName": "javaP_fb367ff0"
+        },
+        {
+            "type": "java",
+            "name": "MergeSort",
+            "request": "launch",
+            "mainClass": "LinkList.MergeSort",
+            "projectName": "javaP_fb367ff0"
+        },
+        {
+            "type": "java",
+            "name": "MergeSortedLL",
+            "request": "launch",
+            "mainClass": "LinkList.MergeSortedLL",
+            "projectName": "javaP_fb367ff0"
+        },
+        {
+            "type": "java",
+            "name": "MergeSortedLL2",
+            "request": "launch",
+            "mainClass": "LinkList.MergeSortedLL2",
+            "projectName": "javaP_fb367ff0"
+        },
+        {
+            "type": "java",
+            "name": "PrintRecur",
+            "request": "launch",
+            "mainClass": "LinkList.PrintRecur",
+            "projectName": "javaP_fb367ff0"
+        },
+        {
+            "type": "java",
+            "name": "TakingInput",
+            "request": "launch",
+            "mainClass": "LinkList.TakingInput",
+            "projectName": "javaP_fb367ff0"
+        },
+        {
+            "type": "java",
+            "name": "ComplexNumUse",
+            "request": "launch",
+            "mainClass": "Opps.ComplexNumUse",
+            "projectName": "javaP_fb367ff0"
+        },
+        {
+            "type": "java",
+            "name": "FractionUse",
+            "request": "launch",
+            "mainClass": "Opps.FractionUse",
+            "projectName": "javaP_fb367ff0"
+        },
+        {
+            "type": "java",
+            "name": "UseStudent",
+            "request": "launch",
+            "mainClass": "Opps.UseStudent",
+            "projectName": "javaP_fb367ff0"
+        },
+        {
+            "type": "java",
+            "name": "AQueueUse",
+            "request": "launch",
+            "mainClass": "Queues.AQueueUse",
+            "projectName": "javaP_fb367ff0"
+        },
+        {
+            "type": "java",
+            "name": "QueLLUse",
+            "request": "launch",
+            "mainClass": "Queues.QueLLUse",
+            "projectName": "javaP_fb367ff0"
+        },
+        {
+            "type": "java",
+            "name": "QueueReverse",
+            "request": "launch",
+            "mainClass": "Queues.QueueReverse",
+            "projectName": "javaP_fb367ff0"
+        },
+        {
+            "type": "java",
+            "name": "ReverseQuetillK",
+            "request": "launch",
+            "mainClass": "Queues.ReverseQuetillK",
+            "projectName": "javaP_fb367ff0"
+        },
+        {
+            "type": "java",
+            "name": "CountDigi$Runner",
+            "request": "launch",
+            "mainClass": "Recursion.CountDigi$Runner",
+            "projectName": "javaP_fb367ff0"
+        },
+        {
+            "type": "java",
+            "name": "INT",
+            "request": "launch",
+            "mainClass": "Recursion.INT",
+            "projectName": "javaP_fb367ff0"
+        },
+        {
+            "type": "java",
+            "name": "PowerOf",
+            "request": "launch",
+            "mainClass": "Recursion.PowerOf",
+            "projectName": "javaP_fb367ff0"
+        },
+        {
+            "type": "java",
+            "name": "PrintNumbers",
+            "request": "launch",
+            "mainClass": "Recursion.PrintNumbers",
+            "projectName": "javaP_fb367ff0"
+        },
+        {
+            "type": "java",
+            "name": "factorial",
+            "request": "launch",
+            "mainClass": "Recursion.factorial",
+            "projectName": "javaP_fb367ff0"
+        },
+        {
+            "type": "java",
+            "name": "BalenceParentheses",
+            "request": "launch",
+            "mainClass": "Stack.BalenceParentheses",
+            "projectName": "javaP_fb367ff0"
+        },
+        {
+            "type": "java",
+            "name": "RedunetBracket",
+            "request": "launch",
+            "mainClass": "Stack.RedunetBracket",
+            "projectName": "javaP_fb367ff0"
+        },
+        {
+            "type": "java",
+            "name": "StackCollection",
+            "request": "launch",
+            "mainClass": "Stack.StackCollection",
+            "projectName": "javaP_fb367ff0"
+        },
+        {
+            "type": "java",
+            "name": "StackLLUse",
+            "request": "launch",
+            "mainClass": "Stack.StackLLUse",
+            "projectName": "javaP_fb367ff0"
+        },
+        {
+            "type": "java",
+            "name": "StackUse",
+            "request": "launch",
+            "mainClass": "Stack.StackUse",
+            "projectName": "javaP_fb367ff0"
+        },
+        {
+            "type": "java",
+            "name": "StockSpan",
+            "request": "launch",
+            "mainClass": "Stack.StockSpan",
+            "projectName": "javaP_fb367ff0"
+        },
+        {
+            "type": "java",
+            "name": "CheckPermutatuin",
+            "request": "launch",
+            "mainClass": "Strings.CheckPermutatuin",
+            "projectName": "javaP_fb367ff0"
+        },
+        {
+            "type": "java",
+            "name": "RemoveAllChar",
+            "request": "launch",
+            "mainClass": "Strings.RemoveAllChar",
+            "projectName": "javaP_fb367ff0"
+        },
+        {
+            "type": "java",
+            "name": "RemoveConsicutiveDupli",
+            "request": "launch",
+            "mainClass": "Strings.RemoveConsicutiveDupli",
+            "projectName": "javaP_fb367ff0"
+        },
+        {
+            "type": "java",
+            "name": "ReverseEachWord",
+            "request": "launch",
+            "mainClass": "Strings.ReverseEachWord",
+            "projectName": "javaP_fb367ff0"
+        },
+        {
+            "type": "java",
+            "name": "FindTheDupliInArray",
+            "request": "launch",
+            "mainClass": "TimeComplexcity.FindTheDupliInArray",
+            "projectName": "javaP_fb367ff0"
+        },
+        {
+            "type": "java",
+            "name": "FindTheUniqe",
+            "request": "launch",
+            "mainClass": "TimeComplexcity.FindTheUniqe",
+            "projectName": "javaP_fb367ff0"
+        },
+        {
+            "type": "java",
+            "name": "TreeUse",
+            "request": "launch",
+            "mainClass": "Tree.TreeUse",
+            "projectName": "javaP_fb367ff0"
+        }
+    ]
+}
