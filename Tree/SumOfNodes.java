@@ -4,6 +4,8 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
 
+import javax.swing.tree.TreeNode;
+
 
 public class SumOfNodes {
 
@@ -67,6 +69,23 @@ public class SumOfNodes {
             return count;
         
         }
+
+    public static int getHeight(TreeUsingArray<Integer> root){
+        if (root == null) {
+            return -1; // or 0, depending on your definition
+        }
+
+        int maxHeight = 0; // Initialize to -1 because we're counting edges, not nodes
+
+        for (TreeUsingArray<Integer> child : root.children) {
+            int childHeight = getHeight(child);
+            maxHeight = Math.max(maxHeight, childHeight);
+        }
+
+        return maxHeight + 1;
+  	   }
+     
+	
     
     
     public static void main(String[] args) {
