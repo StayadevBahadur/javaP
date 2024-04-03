@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SumOfNodes",
+            "request": "launch",
+            "mainClass": "Tree.SumOfNodes",
+            "projectName": "javaP_fb367ff0"
+        },
+        {
+            "type": "java",
             "name": "TUtakeInoutLevel",
             "request": "launch",
             "mainClass": "Tree.TUtakeInoutLevel",
