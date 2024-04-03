@@ -72,18 +72,20 @@ public class SumOfNodes {
 
     public static int getHeight(TreeUsingArray<Integer> root){
         if (root == null) {
-            return -1; // or 0, depending on your definition
+            return -1; // An empty tree has height -1
         }
-
-        int maxHeight = 0; // Initialize to -1 because we're counting edges, not nodes
-
+    
+        int maxHeight = 0; // Initialize to -1 to count edges
+    
         for (TreeUsingArray<Integer> child : root.children) {
             int childHeight = getHeight(child);
-            maxHeight = Math.max(maxHeight, childHeight);
+            if (childHeight > maxHeight) {
+                maxHeight = childHeight;
+            }
         }
-
-        return maxHeight + 1;
-  	   }
+    
+        return maxHeight + 1; // Height of current node = max height of children + 1
+    }
      
 	
     
