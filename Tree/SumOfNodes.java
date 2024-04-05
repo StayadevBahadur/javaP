@@ -87,8 +87,25 @@ public class SumOfNodes {
         return maxHeight + 1; // Height of current node = max height of children + 1
     }
      
-	
+    public static void getDepth(TreeUsingArray<Integer> root, int k){
+        if (k==0) {
+           System.out.print(root.data);
+           return;
+        }
+        for(int i = 0; i<root.children.size();i++){
+            getDepth(root.children.get(i), k-1);
+        }
+    }	
     
+    public static void PreeOrderPint(TreeUsingArray<Integer> root){
+        if (root == null) {
+            return;
+        }
+        System.out.print(root.data + " ");
+        for(int i = 0; i<root.children.size();i++){
+            PreeOrderPint(root.children.get(i));
+        }
+    }
     
     public static void main(String[] args) {
         TreeUsingArray<Integer> root = TakeInputLevewise();

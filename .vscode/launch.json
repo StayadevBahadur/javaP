@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "StructurallyIdenticalTrees",
+            "request": "launch",
+            "mainClass": "Tree.StructurallyIdenticalTrees",
+            "projectName": "javaP_fb367ff0"
+        },
+        {
+            "type": "java",
+            "name": "ChecktheNum",
+            "request": "launch",
+            "mainClass": "Tree.ChecktheNum",
+            "projectName": "javaP_fb367ff0"
+        },
+        {
+            "type": "java",
+            "name": "ChecktheK",
+            "request": "launch",
+            "mainClass": "Tree.ChecktheK",
+            "projectName": "javaP_fb367ff0"
+        },
+        {
+            "type": "java",
+            "name": "CheckTheK",
+            "request": "launch",
+            "mainClass": "Tree.CheckTheK",
+            "projectName": "javaP_fb367ff0"
+        },
+        {
+            "type": "java",
             "name": "SumOfNodes",
             "request": "launch",
             "mainClass": "Tree.SumOfNodes",
