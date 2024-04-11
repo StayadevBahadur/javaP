@@ -1,11 +1,8 @@
 package BinaryTrees;
 
-import java.util.LinkedList;
-import java.util.Queue;
-import java.util.Scanner;
+import java.util.*;
 
-
-public class PrintLevelWise {
+public class Trversal {
     public static BinaryTree<Integer> TalkeInLwise(){
         Scanner s = new Scanner(System.in);
         System.out.print("Enter the root data :");
@@ -64,69 +61,21 @@ public class PrintLevelWise {
             System.out.println();
         }
         
-    }    
+    }  
 
-    public static int fidnthewithLargestNodeData(BinaryTree<Integer> root){
+    public static void inOrderPrint(BinaryTree<Integer> root){
         if (root == null) {
-            return -1;
+            return;
         }
-
-        int largestLeft = fidnthewithLargestNodeData(root.left);
-        int largestRight = fidnthewithLargestNodeData(root.right);
-        
-        return(Math.max(root.data, Math.max(largestLeft, largestRight))) ;
+        inOrderPrint(root.left);
+        System.out.print(root.data + " ");
+        inOrderPrint(root.right);
     }
 
-    public static int countNodesGreaterThanX(BinaryTree<Integer> root, int x) {
-        if (root == null) {
-            return 0; // If the root is null, there are no nodes greater than X
-        }
-        int count = 0;
-        if (root.data > x) {
-            count = 1; // Increment count if the current node's data is greater than X
-        }
-
-        // Recursively count nodes in the left and right subtrees
-        int leftCount = countNodesGreaterThanX(root.left, x);
-        int rightCount = countNodesGreaterThanX(root.right, x);
-
-        // Add counts from left and right subtrees to the current count
-        count += leftCount + rightCount;
-        return count;
-    }
-
-    public static int HeightofTree(BinaryTree<Integer>root){
-        if (root == null) {
-            return 0;
-        }
-       
-
-        int leftHeight = HeightofTree(root.left);
-        int rightHeight = HeightofTree(root.right);
-        
-        return 1+Math.max(leftHeight, rightHeight);
-    }
-    
-    public static BinaryTree<Integer> removeleafNodes(BinaryTree<Integer> root){
-        if (root == null) {
-            return null;
-        }
-        if (root.left == null && root.right == null) {
-            return null;
-        }
-
-       root.left = removeleafNodes(root.left);
-       root.right = removeleafNodes(root.right);
-
-        return root;
-    }
     public static void main(String[] args) {
         BinaryTree<Integer> root = TalkeInLwise();
         PrintLwise(root);
-        int height = HeightofTree(root);
-        System.out.println(height);
-        BinaryTree<Integer> root2 = removeleafNodes(root);
-        PrintLwise(root2);
-
+        System.out.println();
+        inOrderPrint(root);
     }
 }
