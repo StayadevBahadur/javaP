@@ -81,12 +81,12 @@ public class CheckIsBalenced {
     public static boolean isBalenced(BinaryTree<Integer> root){
         // A balanced tree is if the height of left sub tree - height of right sub tree is <=1  
         if (root == null) {
-            return false;
+            return true;
         }
         int leftHeight = getHeight(root.left);
         int rightHeight = getHeight(root.right);
 
-        if (Math.abs(leftHeight-rightHeight)>1) {
+        if (Math.abs(leftHeight-rightHeight)>=1) {
             return false;
         }
         
